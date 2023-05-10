@@ -2,7 +2,7 @@ import { Parallax, Background } from "react-parallax";
 
 const Title = () => (
   <Parallax
-    // blur={{ min: -15, max: 15 }}
+    // blur={{ min: 0, max: 15 }}n
     // bgImage={require("https://cdn.midjourney.com/0e0d7d26-e6bc-4416-a0b2-88c81f07146f/0_0.png")}
     className="image"
     bgImage={

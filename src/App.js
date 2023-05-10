@@ -10,13 +10,15 @@ import TextTwo from "./components/text/TextTwo";
 
 function App() {
   return (
-    <div className="">
-      <Title />
-      <SectionOne />
-      <TextOne />
-      <SectionTwo />
-      <TextTwo />
-      <SectionThree />
+    <div className="container">
+      <div className="inner-container">
+        <Title />
+        <SectionOne />
+        <TextOne />
+        <SectionTwo />
+        <TextTwo />
+        <SectionThree />
+      </div>
     </div>
   );
 }

@@ -12,6 +12,17 @@ code {
     monospace;
 }
 
+.container {
+  display: flex;
+  background-color: black;
+}
+
+.inner-container {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .image {
   position: relative;
   min-height: 100vh;
@@ -38,4 +49,5 @@ code {
   text-align: center;
   padding: 3rem 1rem;
   text-align: justify;
+  color: white;
 }
